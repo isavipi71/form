@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Registro*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: gray;
+}
+form{
+    width: 700px;
+    padding: 8%;
+    color: #fff;
+    background-color: rgb(240, 231, 234);
+    box-shadow: 5px 5px 10px rgb(82, 82, 82);
+}
+h2 {
+    margin-bottom: 30px;
+    text-align: left;
+    color: black;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+    font-size: 10px;
+  }
+
+input{
+width: 100%;
+padding: 8px;
+font-family: 'IBM Plex Mono', monospace;
+font-size: 10px;
+}
+
+.col_100{
+    margin-top: 15px;
+}
+
+.col_50{
+    width: 48%;
+    margin-top: 15px;
+}
+
+.submit-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 35px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    background-color: rgb(172, 106, 189);
+
+}
+
+.submit-btn:hover, .reset-btn:hover{
+    cursor: pointer;
+    background-color: rgb(203, 54, 139);
+}
+
+
+
+/* Login*/
+
+
+.login{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(126, 126, 131);
+}
+
+.back{
+    width: 100px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(214, 34, 70);
+    margin-left: 160px;
+    margin-bottom: 70px;
+
+}
+
+.back01{
+   width: 100px;
+   height: 200px;
+   position: absolute; 
+   margin-right: 160px;
+   margin-top: 70px;
+   background-color: rgba(16, 192, 74);
+}
+
+.container{
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 20px;
+    border-radius: 5px;
+    -webkit-backdrop-filter: blur(40px);
+    backdrop-filter: blur(80px);
+}
+.login-page{
+    display: flex;
+    position: absolute;
+    top: 5px;
+    font-family: cursive;
+    font-size: 40px;
+    color: black;
+}
+.email{
+    display: flex;  
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: black;
+}
+.user-input{
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+    height: 25px; 
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(207, 206, 204);
+}
+
+.user_password{
+    display: flex;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: black;
+}
+
+.password-input{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(207, 206, 204);
+}
+
+.submit-btn_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-size: 11px;
+    font-weight: 600;
+    width: 60px;
+    height: 30px;
+    top: 230px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(207, 206, 204);
+    
+   
+}
+
+.submit-btn_2:hover{
+    cursor: pointer;
+    background-color: rgba(143, 142, 141);
+}
+
+
+  
+  
